@@ -1,4 +1,4 @@
-19835268935672351
+19876399145760864
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51247,6 +51247,13 @@ Connector
 100
 100
 Evan's misc parts
+BME280
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+Evan's misc parts
 BUS_AT_M
 Connecteur Bus AT ISA 16 bits male
 CONN BUS ISA MALE
@@ -51275,6 +51282,20 @@ CONN S100 MALE
 100
 100
 Evan's misc parts
+C64-Cart-NoSilkS
+
+
+0
+46
+44
+Evan's misc parts
+CUI_SJ1-3525N
+
+
+0
+5
+5
+Evan's misc parts
 DIP254P762X533-16
 
 
@@ -51285,6 +51306,13 @@ Evan's misc parts
 EG6201
 EG6201-1
 Switch
+0
+22
+22
+Evan's misc parts
+ESP-12F
+
+
 0
 22
 22
@@ -51331,12 +51359,40 @@ Inductor
 2
 2
 Evan's misc parts
+LED_XZM2CRKM2DGFBB45SCCB
+
+
+0
+4
+4
+Evan's misc parts
+LTS3401LG
+LTS-3401LG
+Display
+0
+13
+13
+Evan's misc parts
+LUX sensor
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+Evan's misc parts
 MountingHole_TI_Thermostat
 Mounting Hole for TI Thermostat
 mounting hole TI Thermostat
 0
 0
 0
+Evan's misc parts
+OS202011MS2QS1
+OS202011MS2QS1-1
+Switch
+0
+8
+8
 Evan's misc parts
 OSHW gear
 
@@ -51351,6 +51407,69 @@ Inductor
 0
 2
 2
+Evan's misc parts
+PEC11R-4XXXK-SXXXX
+PEC11R-4xxxK-Sxxxx
+Variable Resistor
+0
+7
+7
+Evan's misc parts
+PLCC127P1750X1750X457-44N
+plcc44
+Integrated Circuit
+0
+44
+44
+Evan's misc parts
+ProMicro
+Pro Micro footprint
+promicro ProMicro
+0
+24
+24
+Evan's misc parts
+ProMicro-EnforcedTop
+Pro Micro footprint
+promicro ProMicro
+0
+24
+24
+Evan's misc parts
+ProMicro-NoSilk
+Pro Micro footprint
+promicro ProMicro
+0
+24
+24
+Evan's misc parts
+QUIP64
+64-Pin Quad Pin Line Chip Package
+
+0
+64
+64
+Evan's misc parts
+SOP65P640X120-16N
+TSSOP16 package
+Integrated Circuit
+0
+16
+16
+Evan's misc parts
+SOP65P780X200-20N
+20 Pin SSOP
+Integrated Circuit
+0
+20
+20
+Evan's misc parts
+TE_1776266-4
+
+
+0
+4
+4
 Evan's misc parts
 TI Thermostat S1
 
@@ -51373,6 +51492,13 @@ TO220_5L
 5
 5
 Evan's misc parts
+TO92127P495H695-3
+
+
+0
+3
+3
+Evan's misc parts
 UJ2MIBHGSMTTR
 UJ2-MIBH-G-SMT-TR-2
 Connector
@@ -51394,12 +51520,61 @@ YAAJ_DCDC_StepDown_LM2596
 4
 4
 Evan's misc parts
+amphenol db25
+L77SDB25S1ACO4F-1
+Connector
+0
+27
+27
+Evan's misc parts
 edge mounted 24 pin card edge connector (2x12 pin)
 
 
 0
 24
 24
+Evan's misc parts
+electronicsgoldmine_numpad
+
+
+0
+36
+36
+Evan's misc parts
+jaguar abc
+
+
+0
+32
+2
+Evan's misc parts
+jaguar dpad
+
+
+0
+2
+2
+Evan's misc parts
+jaguar keypad button
+
+
+0
+12
+2
+Evan's misc parts
+northstar db25
+09683535612-1
+Connector
+0
+27
+27
+Evan's misc parts
+northstar edge connector
+
+
+0
+30
+30
 Evan's misc parts
 sonoff relay
 
