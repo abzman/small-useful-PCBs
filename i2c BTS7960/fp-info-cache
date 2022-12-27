@@ -1,4 +1,4 @@
-19913045604885107
+19918059713784234
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51345,6 +51345,13 @@ DIP254P762X533-16
 16
 16
 Evan's misc parts
+DPAK127P1490X440-8N
+
+
+0
+8
+8
+Evan's misc parts
 D_DO-35_SOD27_P15.24mm_Horizontal
 Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
 Diode DO-35_SOD27 series Axial Horizontal pin pitch 15.24mm  length 4mm diameter 2mm
@@ -51464,6 +51471,13 @@ MODULE_SC0915
 53
 53
 Evan's misc parts
+MP1584_buck_module
+
+
+0
+8
+4
+Evan's misc parts
 MountingHole_TI_Thermostat
 Mounting Hole for TI Thermostat
 mounting hole TI Thermostat
@@ -51568,6 +51582,13 @@ RP2040_Stamp_THT
 0
 80
 40
+Evan's misc parts
+SOIC127P599X175-8N
+
+
+0
+8
+8
 Evan's misc parts
 SOP65P640X120-16N
 TSSOP16 package
