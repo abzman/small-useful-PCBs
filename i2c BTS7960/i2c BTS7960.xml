@@ -1,0 +1,2196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Evan\Documents\GitHub\small-useful-PCBs\i2c BTS7960\i2c BTS7960.kicad_sch</source>
+    <date>12/27/2022 8:18:43 PM</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>i2c BTS7960.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>bts7960module2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>bts7960module.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c41276f-7137-4e99-8728-5268c5b6f56b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86e137a9-2771-411e-86c0-859646a5f15f</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52e17381-4d38-4139-a7a2-f5b296c997ed</tstamps>
+    </comp>
+    <comp ref="C89">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb99ce3d-3f4f-4ed3-bfc7-908710619835</tstamps>
+    </comp>
+    <comp ref="C90">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56375d32-2d15-439c-abbc-a49a30a942c8</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>24v</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b73746b-92ef-4bdc-8060-79a2d60a5d06</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>Orange LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12e432af-7a93-4f9a-bf5e-f7d4f8f89b3d</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>5v</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>983667e4-b473-48a7-a2b2-db5ad2479f96</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>3.3v</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87eb32d5-0e57-4c0d-ace3-e238b55e6134</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>power in</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b298629a-6446-4c5e-b89f-d777a2adc734</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>to qwiic breakout</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb12aa98-e68c-43ca-bc7f-9875f10a6dd9</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>qwiic 1</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1360ab8-bfb8-4140-afa9-5baf0340aad3</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>qwiic 2</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec2952dd-055b-4f00-906e-4bdb54383563</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a50b5f7-d609-409d-947b-39530ce2e158</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c1254ea-bcca-4e9f-8154-57ba0c018bda</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3dbe6a7a-bc13-4fc1-8db1-b99441dc1d0a</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>Jumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6ed04a0-ba11-4b67-938a-2ac59d652fb6</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>Jumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd63438d-19a2-4af3-acb2-4b7b2f4b4eda</tstamps>
+    </comp>
+    <comp ref="JP6">
+      <value>Jumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29da739d-c2ca-49f2-9ee2-ee6636ae1dea</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e8dbda0-cfae-4f3f-8632-81c2c998844f</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b521835-2349-436c-8ca1-0d0dfe01c54f</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d415a7e-4f6a-4136-aabb-40423e249c07</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cca554f-4493-4aeb-a530-f254ededae9e</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b0e5992-43d0-4051-b54f-4291a56f93c2</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d52d6dac-e0dc-43f7-adb2-c28cdd357ce8</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76c06582-5795-4518-bd4c-f1318941f448</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f7dd461-2f0d-4951-abf6-f2f24db77adb</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34ab7ed0-fca3-4b3d-8da0-8868d78a8add</tstamps>
+    </comp>
+    <comp ref="R50">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da29304b-fdb0-4932-a0f1-35b10e1f747d</tstamps>
+    </comp>
+    <comp ref="R51">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eafbb053-03df-4045-8f72-eb090c5e5554</tstamps>
+    </comp>
+    <comp ref="R52">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1bad49f-6fce-4a5c-802f-69e2bfe60a6a</tstamps>
+    </comp>
+    <comp ref="R53">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b2d87e2-e6bb-49cc-9284-bd6d270146cd</tstamps>
+    </comp>
+    <comp ref="R54">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acf326f3-7309-468c-9469-8e72214515c8</tstamps>
+    </comp>
+    <comp ref="R55">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6eeef786-33c2-4d11-9032-acda83b600f9</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>PCA9685</value>
+      <footprint>Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/PCA9685.pdf</datasheet>
+      <libsource lib="Driver_LED" part="PCA9685PW" description="16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1180f33e-f224-4439-92e9-4a12a9c6cc68</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>ISO1540</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/iso1541.pdf</datasheet>
+      <libsource lib="Isolator" part="ISO1540" description="I2C Isolator, 2.5 kVrms, Bidirectional clock and data, SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>115333f1-3186-4279-b91c-7f3e4ff0e893</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>LD1117S33</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LD1117S33TR_SOT223" description="800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a87e79ba-fbf1-4179-aab9-2b0e24e48309</tstamps>
+    </comp>
+    <comp ref="U90">
+      <value>mp1584 dcdc</value>
+      <footprint>Evan's misc parts:MP1584_buck_module</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="i2c BTS7960.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d7cfe51-92d1-4705-8b43-4449f69b77e5</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>f1d96992-87b5-4848-8616-36bd1e5bb519</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>3b78e350-7f40-44f5-858e-9c31ed1ce72d</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>330uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>3d0a481d-f32e-4320-a309-389f00fafdbd</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>dac96f42-b149-44d5-a9a5-c26bddaebd6e</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>c8343430-490f-4689-9763-ec963c613d70</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>8d7d0826-bf22-412c-b465-0ed52a6d614d</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>564e8fc9-e21d-4a06-bcd0-9b372be0b017</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>0387af85-b913-4ad3-a122-4b698849db13</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>080eb953-9a3c-4090-8aec-06e6913f14f1</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>7bfef006-7a94-499c-bdca-2e25a7e57584</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>97715667-91bc-4aac-828d-6ff629ba9241</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>07954f68-f24b-430f-be71-5282a43eef0f</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>e45313db-2c02-469b-96a0-9678f7b9c22d</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>18008cf2-7caa-4ae6-8d15-0727dd83128d</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>f10534dd-4a6c-41d9-8d31-76bf99d2b127</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>jst</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>df26a89f-dd44-4793-a2f4-e38933bfe3bf</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x04</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>f68485cd-e4a0-4c8f-b298-21e38ed42ff0</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>45ec0838-9c37-45fa-9494-db87e2cb6cf3</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>a892882a-a531-4f56-afbd-4e7a86626487</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>23409a6b-93b3-44d3-b055-c0a316152bdd</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>a0e55cd5-5a02-460e-a886-553bdde4862d</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>77ee3380-9800-452b-bc82-4ad07086ed47</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>f5e387b5-546e-4721-b884-ebde01a1563e</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>be32a642-9f8a-4ad1-9582-9eeff51de8d9</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>386dc776-1127-4672-b4ed-2400e06284f5</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>3a873c89-60b3-4f92-95b6-d40e2c2b02b1</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>4b6816f7-e250-40e5-8ce2-0e5ee9cfb376</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>b9df3ffd-76a8-4037-8f9f-680eab4d5eb7</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>7e478dd0-d8e4-4aff-a0a9-6355cd756965</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>e9c1f203-cd9b-4831-bdbe-8b1dd8b8a589</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>812a372c-0101-4a78-ae80-7d6422fd23e2</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>23d7b353-6254-4b1a-99d7-ba73d6b7c780</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>dbb9d9ce-9833-4a36-8d61-992e041380ae</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>bfdd4d05-52ad-4303-91b5-a03024fe25bf</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>e0a3b697-c6a1-4cbf-892c-3afd829a9665</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>7e77e9a9-832e-4b52-b7ce-33c895c49ebe</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>35d66f60-722c-4db2-9402-7035f3e93b72</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>74AHC244</value>
+      <footprint>Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf</datasheet>
+      <libsource lib="74xx" part="74AHC244" description="8-bit Buffer/Line Driver 3-state"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>7feee675-c952-476b-868d-b6aa8bc48751</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>BTS7960B</value>
+      <footprint>Evan's misc parts:DPAK127P1490X440-8N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Infineon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.4mm</field>
+        <field name="PARTREV">1.1</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Evan's misc parts" part="BTS7960B" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.4mm"/>
+      <property name="MANUFACTURER" value="Infineon"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="1.1"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>49c3b7b9-046f-4679-b1b7-3e0db30622cb</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>BTS7960B</value>
+      <footprint>Evan's misc parts:DPAK127P1490X440-8N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Infineon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.4mm</field>
+        <field name="PARTREV">1.1</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Evan's misc parts" part="BTS7960B" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.4mm"/>
+      <property name="MANUFACTURER" value="Infineon"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="1.1"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>cf2d39d1-279a-4d59-8910-6a4e872addbc</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>BTS7960B</value>
+      <footprint>Evan's misc parts:DPAK127P1490X440-8N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Infineon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.4mm</field>
+        <field name="PARTREV">1.1</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Evan's misc parts" part="BTS7960B" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.4mm"/>
+      <property name="MANUFACTURER" value="Infineon"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="1.1"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>3eb394bf-3085-4990-8fa0-fa6251a847ea</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>BTS7960B</value>
+      <footprint>Evan's misc parts:DPAK127P1490X440-8N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Infineon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.4mm</field>
+        <field name="PARTREV">1.1</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Evan's misc parts" part="BTS7960B" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.4mm"/>
+      <property name="MANUFACTURER" value="Infineon"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="1.1"/>
+      <property name="Sheetname" value="bts7960 module2"/>
+      <property name="Sheetfile" value="bts7960module2.kicad_sch"/>
+      <sheetpath names="/bts7960 module2/" tstamps="/5bd48f92-7e14-495e-b0f0-e01697b3962a/"/>
+      <tstamps>68424ab8-c984-4ca6-b9c2-57853efcd744</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>1c6729d7-fb02-47c9-9e58-c24aca4d1955</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>ad50ead9-7cce-4f10-899c-9bc6055905f5</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>330uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>488c56f9-132c-4d91-beec-959b9460cd94</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>fa65c63b-253e-449d-9df5-96b4f423c215</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>98f9c823-e36f-4964-83bc-1020b6238492</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>fc75536e-5eee-411b-8c90-4acc820cb97f</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>ec7c0600-9543-40f9-923b-02475ab20d64</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>12abd2ac-7e6c-4934-9ba8-9f7f78f29d63</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>bc56b6ef-a579-4099-8f21-972ead139234</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>e42f579b-3925-4d4e-a2f4-9553d75db83b</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>DIODE</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>9c5868eb-b234-4eba-a0a2-b70901340f20</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>b106ae60-a0d9-465e-957f-9169d9ab538a</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>0782e403-5c9e-4e9c-b58e-f034420a60e5</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>e8792709-dff0-4fe5-ab19-68a0ad1a48bb</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>833ec697-73f0-481c-b410-9323fe01f7d6</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>7603701d-57fe-400c-bc6b-6f1ed9775f4f</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>jst</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>6f3fce61-c1fe-4bd1-9048-84d6dbdaf1f9</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>66a66c25-cca2-45d7-816b-22b904c47118</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>3338e061-df5b-48f6-a1b9-c59392b97673</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>9f9b35c4-7f86-45f3-9866-4927ac5439b4</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>8222bc29-b9b9-47be-8f2a-b26675569b60</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>004ddc11-22fe-46d5-b5c2-3b2abd345029</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>c38bf70b-e95c-4b21-9629-10d42640e9ea</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>3ba95a31-8877-433d-ad16-d60e6f0d6ece</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>20715fb4-3ed4-43b7-8ec8-b37bf7c05cce</tstamps>
+    </comp>
+    <comp ref="R76">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>10ac535c-8028-407d-9afd-71be4cdc3e79</tstamps>
+    </comp>
+    <comp ref="R77">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>154dbcac-2904-4622-9644-1487935c00ce</tstamps>
+    </comp>
+    <comp ref="R78">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>63cbfd16-6ac5-451b-8a93-e988827dee71</tstamps>
+    </comp>
+    <comp ref="R79">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>956a9d01-6205-4559-aa97-b5e9e04a64ee</tstamps>
+    </comp>
+    <comp ref="R80">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>5bf3d8f5-f14e-40be-85c9-0cd8bdc37b83</tstamps>
+    </comp>
+    <comp ref="R81">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>4b379a1a-8ab8-43ec-8881-0e4f091096fb</tstamps>
+    </comp>
+    <comp ref="R82">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>06e436cd-bb3b-467f-8cfe-1337a1410060</tstamps>
+    </comp>
+    <comp ref="R83">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>41fd1df3-e118-4e1e-9985-135f10052365</tstamps>
+    </comp>
+    <comp ref="R84">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>db37d416-1568-4adc-86c9-a9639b04a558</tstamps>
+    </comp>
+    <comp ref="R86">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>c272e81a-ba86-4f3e-aa11-23139f37afa0</tstamps>
+    </comp>
+    <comp ref="R88">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>96cd53d6-9de1-441d-818a-96597f083af0</tstamps>
+    </comp>
+    <comp ref="R90">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>9b8c240f-66da-41cf-883a-aac223e44fb3</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>74AHC244</value>
+      <footprint>Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf</datasheet>
+      <libsource lib="74xx" part="74AHC244" description="8-bit Buffer/Line Driver 3-state"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>ccb95492-b0e5-4e60-888c-b91418368d91</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>BTS7960B</value>
+      <footprint>Evan's misc parts:DPAK127P1490X440-8N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Infineon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.4mm</field>
+        <field name="PARTREV">1.1</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Evan's misc parts" part="BTS7960B" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.4mm"/>
+      <property name="MANUFACTURER" value="Infineon"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="1.1"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>f7e22a52-082c-45b0-aebe-0ea0fc359d60</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>BTS7960B</value>
+      <footprint>Evan's misc parts:DPAK127P1490X440-8N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Infineon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.4mm</field>
+        <field name="PARTREV">1.1</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Evan's misc parts" part="BTS7960B" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.4mm"/>
+      <property name="MANUFACTURER" value="Infineon"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="1.1"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>8d4a8066-b330-47ec-a83e-9ebbc14ab192</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>BTS7960B</value>
+      <footprint>Evan's misc parts:DPAK127P1490X440-8N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Infineon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.4mm</field>
+        <field name="PARTREV">1.1</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Evan's misc parts" part="BTS7960B" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.4mm"/>
+      <property name="MANUFACTURER" value="Infineon"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="1.1"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>f083e0ff-84b0-4f5c-9c79-bf7f348fc6a0</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>BTS7960B</value>
+      <footprint>Evan's misc parts:DPAK127P1490X440-8N</footprint>
+      <fields>
+        <field name="MANUFACTURER">Infineon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.4mm</field>
+        <field name="PARTREV">1.1</field>
+        <field name="STANDARD">IPC-7351B</field>
+      </fields>
+      <libsource lib="Evan's misc parts" part="BTS7960B" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.4mm"/>
+      <property name="MANUFACTURER" value="Infineon"/>
+      <property name="STANDARD" value="IPC-7351B"/>
+      <property name="PARTREV" value="1.1"/>
+      <property name="Sheetname" value="bts7960 module1"/>
+      <property name="Sheetfile" value="bts7960module.kicad_sch"/>
+      <sheetpath names="/bts7960 module1/" tstamps="/861f5e51-ce87-4891-aa2b-840dfc68f4dc/"/>
+      <tstamps>4890f060-eb5b-4f4c-bed4-055c84499500</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74AHC244">
+      <description>8-bit Buffer/Line Driver 3-state</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x6.5mm*P0.65mm*</fp>
+        <fp>SSOP*4.4x6.5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74AHC244</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1OE" type="input"/>
+        <pin num="2" name="1A0" type="input"/>
+        <pin num="3" name="2Y0" type="tri_state"/>
+        <pin num="4" name="1A1" type="input"/>
+        <pin num="5" name="2Y1" type="tri_state"/>
+        <pin num="6" name="1A2" type="input"/>
+        <pin num="7" name="2Y2" type="tri_state"/>
+        <pin num="8" name="1A3" type="input"/>
+        <pin num="9" name="2Y3" type="tri_state"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="2A3" type="input"/>
+        <pin num="12" name="1Y3" type="tri_state"/>
+        <pin num="13" name="2A2" type="input"/>
+        <pin num="14" name="1Y2" type="tri_state"/>
+        <pin num="15" name="2A1" type="input"/>
+        <pin num="16" name="1Y1" type="tri_state"/>
+        <pin num="17" name="2A0" type="input"/>
+        <pin num="18" name="1Y0" type="tri_state"/>
+        <pin num="19" name="2OE" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_LED" part="PCA9685PW">
+      <description>16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP</description>
+      <docs>http://www.nxp.com/documents/data_sheet/PCA9685.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x9.7mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCA9685PW</field>
+        <field name="Footprint">Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm</field>
+        <field name="Datasheet">http://www.nxp.com/documents/data_sheet/PCA9685.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="A3" type="input"/>
+        <pin num="5" name="A4" type="input"/>
+        <pin num="6" name="LED0" type="output"/>
+        <pin num="7" name="LED1" type="output"/>
+        <pin num="8" name="LED2" type="output"/>
+        <pin num="9" name="LED3" type="output"/>
+        <pin num="10" name="LED4" type="output"/>
+        <pin num="11" name="LED5" type="output"/>
+        <pin num="12" name="LED6" type="output"/>
+        <pin num="13" name="LED7" type="output"/>
+        <pin num="14" name="VSS" type="power_in"/>
+        <pin num="15" name="LED8" type="output"/>
+        <pin num="16" name="LED9" type="output"/>
+        <pin num="17" name="LED10" type="output"/>
+        <pin num="18" name="LED11" type="output"/>
+        <pin num="19" name="LED12" type="output"/>
+        <pin num="20" name="LED13" type="output"/>
+        <pin num="21" name="LED14" type="output"/>
+        <pin num="22" name="LED15" type="output"/>
+        <pin num="23" name="~{OE}" type="input"/>
+        <pin num="24" name="A5" type="input"/>
+        <pin num="25" name="EXTCLK" type="input"/>
+        <pin num="26" name="SCL" type="input"/>
+        <pin num="27" name="SDA" type="bidirectional"/>
+        <pin num="28" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Evan's misc parts" part="BTS7960B">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BTS7960B</field>
+        <field name="Footprint">DPAK127P1490X440-8N</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.4mm</field>
+        <field name="MANUFACTURER">Infineon</field>
+        <field name="STANDARD">IPC-7351B</field>
+        <field name="PARTREV">1.1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="3" name="INH" type="input"/>
+        <pin num="4" name="OUT" type="output"/>
+        <pin num="5" name="SR" type="input"/>
+        <pin num="6" name="IS" type="output"/>
+        <pin num="7" name="VS" type="power_in"/>
+        <pin num="8" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="ISO1540">
+      <description>I2C Isolator, 2.5 kVrms, Bidirectional clock and data, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/iso1541.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ISO1540</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/iso1541.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC1" type="power_in"/>
+        <pin num="2" name="SDA1" type="bidirectional"/>
+        <pin num="3" name="SCL1" type="bidirectional"/>
+        <pin num="4" name="GND1" type="power_in"/>
+        <pin num="5" name="GND2" type="power_in"/>
+        <pin num="6" name="SCL2" type="bidirectional"/>
+        <pin num="7" name="SDA2" type="bidirectional"/>
+        <pin num="8" name="VCC2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LD1117S33TR_SOT223">
+      <description>800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117S33TR_SOT223</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Simulation_SPICE" part="DIODE">
+      <description>Diode, anode on pin 1, for simulation only!</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+        <field name="Datasheet">~</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Driver_LED">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Driver_LED.kicad_sym</uri>
+    </library>
+    <library logical="Evan's misc parts">
+      <uri>C:/Users/Evan/Documents/KiCad/6.0/symbols/Evan's misc parts.kicad_sym</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Isolator.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Simulation_SPICE">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Simulation_SPICE.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C89" pin="1" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R53" pin="2" pintype="passive"/>
+      <node ref="R54" pin="2" pintype="passive"/>
+      <node ref="R55" pin="1" pintype="passive"/>
+      <node ref="U12" pin="8" pinfunction="VCC2" pintype="power_in"/>
+      <node ref="U13" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U5" pin="28" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C90" pin="1" pintype="passive"/>
+      <node ref="R52" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U13" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U7" pin="20" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U90" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="3" name="+24V">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D11" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D13" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D15" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R48" pin="1" pintype="passive"/>
+      <node ref="U10" pin="7" pinfunction="VS" pintype="power_in"/>
+      <node ref="U11" pin="7" pinfunction="VS" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="VS" pintype="power_in"/>
+      <node ref="U3" pin="7" pinfunction="VS" pintype="power_in"/>
+      <node ref="U4" pin="7" pinfunction="VS" pintype="power_in"/>
+      <node ref="U6" pin="7" pinfunction="VS" pintype="power_in"/>
+      <node ref="U8" pin="7" pinfunction="VS" pintype="power_in"/>
+      <node ref="U9" pin="7" pinfunction="VS" pintype="power_in"/>
+      <node ref="U90" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/pwm0">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="2A0" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="LED0" pintype="output"/>
+    </net>
+    <net code="5" name="/pwm1">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="2A1" pintype="input"/>
+      <node ref="U5" pin="7" pinfunction="LED1" pintype="output"/>
+    </net>
+    <net code="6" name="/pwm2">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="2A2" pintype="input"/>
+      <node ref="U5" pin="8" pinfunction="LED2" pintype="output"/>
+    </net>
+    <net code="7" name="/pwm3">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="2A3" pintype="input"/>
+      <node ref="U5" pin="9" pinfunction="LED3" pintype="output"/>
+    </net>
+    <net code="8" name="/pwm4">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="1A3" pintype="input"/>
+      <node ref="U5" pin="10" pinfunction="LED4" pintype="output"/>
+    </net>
+    <net code="9" name="/pwm5">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="1A2" pintype="input"/>
+      <node ref="U5" pin="11" pinfunction="LED5" pintype="output"/>
+    </net>
+    <net code="10" name="/pwm6">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="1A1" pintype="input"/>
+      <node ref="U5" pin="12" pinfunction="LED6" pintype="output"/>
+    </net>
+    <net code="11" name="/pwm7">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="1A0" pintype="input"/>
+      <node ref="U5" pin="13" pinfunction="LED7" pintype="output"/>
+    </net>
+    <net code="12" name="/pwm8">
+      <node ref="R88" pin="1" pintype="passive"/>
+      <node ref="U5" pin="15" pinfunction="LED8" pintype="output"/>
+      <node ref="U7" pin="8" pinfunction="1A3" pintype="input"/>
+    </net>
+    <net code="13" name="/pwm9">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U5" pin="16" pinfunction="LED9" pintype="output"/>
+      <node ref="U7" pin="6" pinfunction="1A2" pintype="input"/>
+    </net>
+    <net code="14" name="/pwm10">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U5" pin="17" pinfunction="LED10" pintype="output"/>
+      <node ref="U7" pin="4" pinfunction="1A1" pintype="input"/>
+    </net>
+    <net code="15" name="/pwm11">
+      <node ref="R90" pin="1" pintype="passive"/>
+      <node ref="U5" pin="18" pinfunction="LED11" pintype="output"/>
+      <node ref="U7" pin="2" pinfunction="1A0" pintype="input"/>
+    </net>
+    <net code="16" name="/pwm12">
+      <node ref="R86" pin="1" pintype="passive"/>
+      <node ref="U5" pin="19" pinfunction="LED12" pintype="output"/>
+      <node ref="U7" pin="17" pinfunction="2A0" pintype="input"/>
+    </net>
+    <net code="17" name="/pwm13">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U5" pin="20" pinfunction="LED13" pintype="output"/>
+      <node ref="U7" pin="15" pinfunction="2A1" pintype="input"/>
+    </net>
+    <net code="18" name="/pwm14">
+      <node ref="R84" pin="1" pintype="passive"/>
+      <node ref="U5" pin="21" pinfunction="LED14" pintype="output"/>
+      <node ref="U7" pin="13" pinfunction="2A2" pintype="input"/>
+    </net>
+    <net code="19" name="/pwm15">
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U5" pin="22" pinfunction="LED15" pintype="output"/>
+      <node ref="U7" pin="11" pinfunction="2A3" pintype="input"/>
+    </net>
+    <net code="20" name="/scl">
+      <node ref="R53" pin="1" pintype="passive"/>
+      <node ref="U12" pin="6" pinfunction="SCL2" pintype="bidirectional"/>
+      <node ref="U5" pin="26" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="21" name="/scl_external">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R50" pin="1" pintype="passive"/>
+      <node ref="U12" pin="3" pinfunction="SCL1" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/sda">
+      <node ref="R54" pin="1" pintype="passive"/>
+      <node ref="U12" pin="7" pinfunction="SDA2" pintype="bidirectional"/>
+      <node ref="U5" pin="27" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/sda_external">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R51" pin="1" pintype="passive"/>
+      <node ref="U12" pin="2" pinfunction="SDA1" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C89" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="C90" pin="2" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R76" pin="2" pintype="passive"/>
+      <node ref="R77" pin="2" pintype="passive"/>
+      <node ref="R78" pin="2" pintype="passive"/>
+      <node ref="R79" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R80" pin="2" pintype="passive"/>
+      <node ref="R81" pin="2" pintype="passive"/>
+      <node ref="R82" pin="2" pintype="passive"/>
+      <node ref="R83" pin="2" pintype="passive"/>
+      <node ref="R84" pin="2" pintype="passive"/>
+      <node ref="R86" pin="2" pintype="passive"/>
+      <node ref="R88" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="R90" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="1OE" pintype="input"/>
+      <node ref="U1" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="19" pinfunction="2OE" pintype="input"/>
+      <node ref="U10" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U11" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="5" pinfunction="GND2" pintype="power_in"/>
+      <node ref="U13" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="14" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="25" pinfunction="EXTCLK" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="1OE" pintype="input"/>
+      <node ref="U7" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="19" pinfunction="2OE" pintype="input"/>
+      <node ref="U8" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U90" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U90" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="25" name="GND2">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U12" pin="4" pinfunction="GND1" pintype="power_in"/>
+    </net>
+    <net code="26" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="OUT" pintype="output"/>
+      <node ref="U2" pin="8" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="27" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="OUT" pintype="output"/>
+      <node ref="U4" pin="8" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="28" name="Net-(D11-Pad1)">
+      <node ref="D11" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D12" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U10" pin="4" pinfunction="OUT" pintype="output"/>
+      <node ref="U10" pin="8" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="29" name="Net-(D13-Pad1)">
+      <node ref="D13" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D14" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="OUT" pintype="output"/>
+      <node ref="U6" pin="8" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="30" name="Net-(D15-Pad1)">
+      <node ref="D15" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D16" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="U11" pin="4" pinfunction="OUT" pintype="output"/>
+      <node ref="U11" pin="8" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="31" name="Net-(D17-Pad1)">
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="OUT" pintype="output"/>
+      <node ref="U3" pin="8" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="32" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D19-Pad1)">
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="U9" pin="4" pinfunction="OUT" pintype="output"/>
+      <node ref="U9" pin="8" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="35" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D20-Pad2)">
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D21-Pad2)">
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D23-Pad1)">
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="OUT" pintype="output"/>
+      <node ref="U8" pin="8" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="40" name="Net-(D23-Pad2)">
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D24-Pad2)">
+      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R48" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D26-Pad2)">
+      <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R49" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D27-Pad2)">
+      <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R52" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D28-Pad2)">
+      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R55" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(JP2-Pad2)">
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(JP3-Pad2)">
+      <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="A2" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(JP4-Pad2)">
+      <node ref="JP4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="A3" pintype="input"/>
+    </net>
+    <net code="50" name="Net-(JP5-Pad2)">
+      <node ref="JP5" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="A4" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(JP6-Pad2)">
+      <node ref="JP6" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="U5" pin="24" pinfunction="A5" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="SR" pintype="input"/>
+    </net>
+    <net code="53" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="SR" pintype="input"/>
+    </net>
+    <net code="54" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="SR" pintype="input"/>
+    </net>
+    <net code="55" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="SR" pintype="input"/>
+    </net>
+    <net code="56" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="IS" pintype="output"/>
+    </net>
+    <net code="57" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="IS" pintype="output"/>
+    </net>
+    <net code="58" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="IS" pintype="output"/>
+    </net>
+    <net code="59" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="IS" pintype="output"/>
+    </net>
+    <net code="60" name="Net-(R39-Pad1)">
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="U5" pin="23" pinfunction="~{OE}" pintype="input"/>
+    </net>
+    <net code="61" name="Net-(R76-Pad1)">
+      <node ref="R76" pin="1" pintype="passive"/>
+      <node ref="U11" pin="6" pinfunction="IS" pintype="output"/>
+    </net>
+    <net code="62" name="Net-(R77-Pad1)">
+      <node ref="R77" pin="1" pintype="passive"/>
+      <node ref="U10" pin="6" pinfunction="IS" pintype="output"/>
+    </net>
+    <net code="63" name="Net-(R78-Pad1)">
+      <node ref="R78" pin="1" pintype="passive"/>
+      <node ref="U9" pin="6" pinfunction="IS" pintype="output"/>
+    </net>
+    <net code="64" name="Net-(R79-Pad1)">
+      <node ref="R79" pin="1" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="IS" pintype="output"/>
+    </net>
+    <net code="65" name="Net-(R80-Pad1)">
+      <node ref="R80" pin="1" pintype="passive"/>
+      <node ref="U11" pin="5" pinfunction="SR" pintype="input"/>
+    </net>
+    <net code="66" name="Net-(R81-Pad1)">
+      <node ref="R81" pin="1" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="SR" pintype="input"/>
+    </net>
+    <net code="67" name="Net-(R82-Pad1)">
+      <node ref="R82" pin="1" pintype="passive"/>
+      <node ref="U9" pin="5" pinfunction="SR" pintype="input"/>
+    </net>
+    <net code="68" name="Net-(R83-Pad1)">
+      <node ref="R83" pin="1" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="SR" pintype="input"/>
+    </net>
+    <net code="69" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="2Y0" pintype="tri_state"/>
+      <node ref="U3" pin="3" pinfunction="INH" pintype="input"/>
+    </net>
+    <net code="70" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="2Y1" pintype="tri_state"/>
+      <node ref="U3" pin="2" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="71" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="2Y2" pintype="tri_state"/>
+      <node ref="U4" pin="3" pinfunction="INH" pintype="input"/>
+    </net>
+    <net code="72" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="2Y3" pintype="tri_state"/>
+      <node ref="U4" pin="2" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="73" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="1Y3" pintype="tri_state"/>
+      <node ref="U6" pin="2" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="74" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="1Y2" pintype="tri_state"/>
+      <node ref="U6" pin="3" pinfunction="INH" pintype="input"/>
+    </net>
+    <net code="75" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16" pinfunction="1Y1" pintype="tri_state"/>
+      <node ref="U2" pin="2" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="76" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18" pinfunction="1Y0" pintype="tri_state"/>
+      <node ref="U2" pin="3" pinfunction="INH" pintype="input"/>
+    </net>
+    <net code="77" name="Net-(U7-Pad3)">
+      <node ref="U7" pin="3" pinfunction="2Y0" pintype="tri_state"/>
+      <node ref="U9" pin="3" pinfunction="INH" pintype="input"/>
+    </net>
+    <net code="78" name="Net-(U7-Pad5)">
+      <node ref="U7" pin="5" pinfunction="2Y1" pintype="tri_state"/>
+      <node ref="U9" pin="2" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="79" name="Net-(U7-Pad16)">
+      <node ref="U7" pin="16" pinfunction="1Y1" pintype="tri_state"/>
+      <node ref="U8" pin="2" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="80" name="Net-(U7-Pad18)">
+      <node ref="U7" pin="18" pinfunction="1Y0" pintype="tri_state"/>
+      <node ref="U8" pin="3" pinfunction="INH" pintype="input"/>
+    </net>
+    <net code="81" name="Net-(U10-Pad2)">
+      <node ref="U10" pin="2" pinfunction="IN" pintype="input"/>
+      <node ref="U7" pin="9" pinfunction="2Y3" pintype="tri_state"/>
+    </net>
+    <net code="82" name="Net-(U10-Pad3)">
+      <node ref="U10" pin="3" pinfunction="INH" pintype="input"/>
+      <node ref="U7" pin="7" pinfunction="2Y2" pintype="tri_state"/>
+    </net>
+    <net code="83" name="Net-(U11-Pad2)">
+      <node ref="U11" pin="2" pinfunction="IN" pintype="input"/>
+      <node ref="U7" pin="12" pinfunction="1Y3" pintype="tri_state"/>
+    </net>
+    <net code="84" name="Net-(U11-Pad3)">
+      <node ref="U11" pin="3" pinfunction="INH" pintype="input"/>
+      <node ref="U7" pin="14" pinfunction="1Y2" pintype="tri_state"/>
+    </net>
+    <net code="85" name="VCC">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R49" pin="1" pintype="passive"/>
+      <node ref="R50" pin="2" pintype="passive"/>
+      <node ref="R51" pin="2" pintype="passive"/>
+      <node ref="U12" pin="1" pinfunction="VCC1" pintype="power_in"/>
+    </net>
+  </nets>
+</export>
