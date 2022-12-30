@@ -1152,7 +1152,6 @@
     )
   )
 
-
   (junction (at 179.07 41.91) (diameter 0) (color 0 0 0 0)
     (uuid 0287e7bb-e04c-45d4-9793-7f6d7ace57fa)
   )
@@ -3915,7 +3914,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 996e9b76-83f8-44ca-8664-6b933f11f1d6)
     (property "Reference" "R41" (id 0) (at 85.725 132.1775 90))
-    (property "Value" "2.2K" (id 1) (at 85.725 134.9526 90))
+    (property "Value" "2.2k" (id 1) (at 85.725 134.9526 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 85.725 138.938 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4295,7 +4294,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bb94ae00-688a-4310-a322-04330d8ac135)
     (property "Reference" "R43" (id 0) (at 142.875 167.1025 90))
-    (property "Value" "2.2K" (id 1) (at 142.875 169.8776 90))
+    (property "Value" "2.2k" (id 1) (at 142.875 169.8776 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 142.875 173.863 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4537,7 +4536,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d0e725ea-0733-4bc0-a1e1-81b399c8aa63)
     (property "Reference" "R42" (id 0) (at 97.155 167.1025 90))
-    (property "Value" "2.2K" (id 1) (at 97.155 169.8776 90))
+    (property "Value" "2.2k" (id 1) (at 97.155 169.8776 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 97.155 173.863 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5640,13 +5639,13 @@
       (reference "R40") (unit 1) (value "47") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/996e9b76-83f8-44ca-8664-6b933f11f1d6"
-      (reference "R41") (unit 1) (value "2.2K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R41") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/d0e725ea-0733-4bc0-a1e1-81b399c8aa63"
-      (reference "R42") (unit 1) (value "2.2K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R42") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/bb94ae00-688a-4310-a322-04330d8ac135"
-      (reference "R43") (unit 1) (value "2.2K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R43") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/6ed7094b-12de-4d09-93e1-25c1d8fc4744"
       (reference "U1") (unit 1) (value "MAX487E") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
