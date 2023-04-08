@@ -1,4 +1,4 @@
-19883024046392796
+19938135630533342
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51247,6 +51247,27 @@ Connector
 100
 100
 Evan's misc parts
+5 pin inline molex 0.93
+5 pin inline molex 0.93
+Connector
+0
+5
+5
+Evan's misc parts
+21-0245A_28
+
+
+0
+28
+28
+Evan's misc parts
+10181042
+10-18-1042-1
+Connector
+0
+4
+4
+Evan's misc parts
 BME280
 Through hole straight pin header, 1x04, 2.54mm pitch, single row
 Through hole pin header THT 1x04 2.54mm single row
@@ -51289,6 +51310,27 @@ C64-Cart-NoSilkS
 46
 44
 Evan's misc parts
+CP_Radial_D35.0mm_P12.90mm_SnapIn
+CP, Radial series, Radial, pin pitch=12.90mm, , diameter=35mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 12.90mm  diameter 35mm Electrolytic Capacitor
+0
+2
+2
+Evan's misc parts
+CUI_MD-90SM
+
+
+0
+12
+12
+Evan's misc parts
+CUI_RCJ-013
+<b>DC POWER JACK</b><p>Source: DCJ0202.pdf
+
+0
+4
+4
+Evan's misc parts
 CUI_SJ1-3525N
 
 
@@ -51296,12 +51338,61 @@ CUI_SJ1-3525N
 5
 5
 Evan's misc parts
+DIP 28 1.78mm
+117-83-640-41-005101 DIPS1524W50P178L3580H420Q40N
+Connector
+0
+28
+28
+Evan's misc parts
+DIP 40 1.78mm
+117-83-640-41-005101 DIPS1524W50P178L3580H420Q40N
+Connector
+0
+40
+40
+Evan's misc parts
+DIP 54 1.78mm
+117-83-640-41-005101 DIPS1524W50P178L3580H420Q40N
+Connector
+0
+54
+54
+Evan's misc parts
+DIP 64 1.78mm
+117-83-640-41-005101 DIPS1524W50P178L3580H420Q40N
+Connector
+0
+64
+64
+Evan's misc parts
 DIP254P762X533-16
 
 
 0
 16
 16
+Evan's misc parts
+DPAK127P1490X440-8N
+
+
+0
+8
+8
+Evan's misc parts
+D_DO-35_SOD27_P15.24mm_Horizontal
+Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+Diode DO-35_SOD27 series Axial Horizontal pin pitch 15.24mm  length 4mm diameter 2mm
+0
+2
+2
+Evan's misc parts
+D_DO-201AD_P18.83mm_Horizontal
+Diode, DO-201AD series, Axial, Horizontal, pin pitch=18.83mm, , length*diameter=9.5*5.2mm^2, , http://www.diodes.com/_files/packages/DO-201AD.pdf
+Diode DO-201AD series Axial Horizontal pin pitch 18.83mm  length 9.5mm diameter 5.2mm
+0
+2
+2
 Evan's misc parts
 EG6201
 EG6201-1
@@ -51338,6 +51429,13 @@ FIL_DLW31SN900SQ2L
 4
 4
 Evan's misc parts
+FM1236_F H-3
+taken from HP 5187-4378 Asus PVR-416 TV FM tuner card
+
+0
+16
+16
+Evan's misc parts
 GCT_USB1130-15-A_REVA
 
 
@@ -51366,6 +51464,20 @@ Connector
 17
 17
 Evan's misc parts
+LC API
+
+
+0
+0
+0
+Evan's misc parts
+LED_0603_smallpads
+LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED
+0
+2
+2
+Evan's misc parts
 LED_XZM2CRKM2DGFBB45SCCB
 
 
@@ -51387,12 +51499,40 @@ Through hole pin header THT 1x05 2.54mm single row
 5
 5
 Evan's misc parts
+MODULE_SC0915
+
+
+0
+53
+53
+Evan's misc parts
+MP1584_buck_module
+
+
+0
+8
+4
+Evan's misc parts
+MQFP-60_P0.8mm
+MQFP, 44 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7722.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+MQFP QFP
+0
+60
+60
+Evan's misc parts
 MountingHole_TI_Thermostat
 Mounting Hole for TI Thermostat
 mounting hole TI Thermostat
 0
 0
 0
+Evan's misc parts
+NAU7802SGI
+
+
+0
+16
+16
 Evan's misc parts
 OPTO_ILQ620GB-X009
 
@@ -51436,6 +51576,13 @@ Integrated Circuit
 44
 44
 Evan's misc parts
+PinHeader_1x01_P2.54mm_Vertical_nosilk
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
+Through hole pin header THT 1x01 2.54mm single row
+0
+1
+1
+Evan's misc parts
 ProMicro
 Pro Micro footprint
 promicro ProMicro
@@ -51464,6 +51611,48 @@ QUIP64
 64
 64
 Evan's misc parts
+RP2040_Stamp_FlexyPin
+
+
+0
+160
+40
+Evan's misc parts
+RP2040_Stamp_SMD
+
+
+0
+40
+40
+Evan's misc parts
+RP2040_Stamp_THT
+
+
+0
+80
+40
+Evan's misc parts
+SCART-F
+TV SCART <B>CONNECTOR</B>
+
+0
+21
+21
+Evan's misc parts
+SOIC127P599X175-8N
+
+
+0
+8
+8
+Evan's misc parts
+SOIC127P1030X265-24N
+
+
+0
+24
+24
+Evan's misc parts
 SOP65P640X120-16N
 TSSOP16 package
 Integrated Circuit
@@ -51477,6 +51666,13 @@ Integrated Circuit
 0
 20
 20
+Evan's misc parts
+Sorcerer_Card_Socket_Vertical
+Through hole straight pin card edge connector, 2x15, 2.54mm pitch, double rows
+Through hole pin header THT 2x15 2.54mm double row card edge slot
+0
+30
+30
 Evan's misc parts
 TE_1776266-4
 
@@ -51527,6 +51723,13 @@ TVS Diode Array WE-TVS
 6
 6
 Evan's misc parts
+WP934SA3ID
+T-1 (3mm) Tri-Level Circuit Board Indicator
+LED
+0
+6
+6
+Evan's misc parts
 Wii GC memory card socket
 
 
@@ -51548,12 +51751,33 @@ Connector
 27
 27
 Evan's misc parts
+edge mount SCART
+
+
+0
+21
+21
+Evan's misc parts
+edge mount SCART non-interleaved
+
+
+0
+21
+21
+Evan's misc parts
 edge mounted 24 pin card edge connector (2x12 pin)
 
 
 0
 24
 24
+Evan's misc parts
+edge mounted 30 pin card edge connector (2x15 pin)
+
+
+0
+30
+30
 Evan's misc parts
 edge mounted 44 pin card edge connector (2x22 pin)
 
@@ -51603,6 +51827,13 @@ northstar edge connector
 0
 30
 30
+Evan's misc parts
+raw pad to splder to
+
+
+0
+1
+1
 Evan's misc parts
 sonoff relay
 

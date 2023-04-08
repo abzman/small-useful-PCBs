@@ -1,4 +1,4 @@
-19918059713784234
+19938135630533342
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -51338,6 +51338,34 @@ CUI_SJ1-3525N
 5
 5
 Evan's misc parts
+DIP 28 1.78mm
+117-83-640-41-005101 DIPS1524W50P178L3580H420Q40N
+Connector
+0
+28
+28
+Evan's misc parts
+DIP 40 1.78mm
+117-83-640-41-005101 DIPS1524W50P178L3580H420Q40N
+Connector
+0
+40
+40
+Evan's misc parts
+DIP 54 1.78mm
+117-83-640-41-005101 DIPS1524W50P178L3580H420Q40N
+Connector
+0
+54
+54
+Evan's misc parts
+DIP 64 1.78mm
+117-83-640-41-005101 DIPS1524W50P178L3580H420Q40N
+Connector
+0
+64
+64
+Evan's misc parts
 DIP254P762X533-16
 
 
@@ -51436,6 +51464,13 @@ Connector
 17
 17
 Evan's misc parts
+LC API
+
+
+0
+0
+0
+Evan's misc parts
 LED_0603_smallpads
 LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 LED
@@ -51478,12 +51513,26 @@ MP1584_buck_module
 8
 4
 Evan's misc parts
+MQFP-60_P0.8mm
+MQFP, 44 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7722.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+MQFP QFP
+0
+60
+60
+Evan's misc parts
 MountingHole_TI_Thermostat
 Mounting Hole for TI Thermostat
 mounting hole TI Thermostat
 0
 0
 0
+Evan's misc parts
+NAU7802SGI
+
+
+0
+16
+16
 Evan's misc parts
 OPTO_ILQ620GB-X009
 
@@ -51583,12 +51632,26 @@ RP2040_Stamp_THT
 80
 40
 Evan's misc parts
+SCART-F
+TV SCART <B>CONNECTOR</B>
+
+0
+21
+21
+Evan's misc parts
 SOIC127P599X175-8N
 
 
 0
 8
 8
+Evan's misc parts
+SOIC127P1030X265-24N
+
+
+0
+24
+24
 Evan's misc parts
 SOP65P640X120-16N
 TSSOP16 package
@@ -51688,6 +51751,20 @@ Connector
 27
 27
 Evan's misc parts
+edge mount SCART
+
+
+0
+21
+21
+Evan's misc parts
+edge mount SCART non-interleaved
+
+
+0
+21
+21
+Evan's misc parts
 edge mounted 24 pin card edge connector (2x12 pin)
 
 
@@ -51750,6 +51827,13 @@ northstar edge connector
 0
 30
 30
+Evan's misc parts
+raw pad to splder to
+
+
+0
+1
+1
 Evan's misc parts
 sonoff relay
 

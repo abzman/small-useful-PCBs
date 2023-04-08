@@ -3265,6 +3265,12 @@
     (path "/ec2952dd-055b-4f00-906e-4bdb54383563"
       (reference "J8") (unit 1) (value "qwiic 2") (footprint "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
     )
+    (path "/5bd48f92-7e14-495e-b0f0-e01697b3962a/8dfcc66e-e86b-425b-a651-f0726deab5a4"
+      (reference "J9") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical")
+    )
+    (path "/861f5e51-ce87-4891-aa2b-840dfc68f4dc/d162bd41-9e8a-441c-960b-288bd6bcd520"
+      (reference "J10") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical")
+    )
     (path "/8a50b5f7-d609-409d-947b-39530ce2e158"
       (reference "JP1") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
