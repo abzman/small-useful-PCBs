@@ -1,0 +1,29 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0)*%
+%TF.CreationDate,2022-01-04T00:38:58-05:00*%
+%TF.ProjectId,4x relay board,34782072-656c-4617-9920-626f6172642e,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Legend,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.0)) date 2022-01-04 00:38:58*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.120000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J3*%
+X181787500Y-85075000D02*
+G75*
+G03*
+X181787500Y-85075000I-2210000J0D01*
+G01*
+X181787500Y-51975000D02*
+G75*
+G03*
+X181787500Y-51975000I-2210000J0D01*
+G01*
+%TD*%
+M02*
