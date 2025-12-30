@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 3.2,
-          "width": 3.2
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -64,16 +64,12 @@
           ""
         ],
         [
-          "lib_footprint_issues|128985001|68478153|3c8060a2-742f-4bf8-8e0c-7cdb5be65f5d|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_issues|133480801|56768753|3c8060a2-742f-4bf8-8e0c-7cdb5be65f5d|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_issues|198395059|63478940|aa644bba-5013-43bc-9fbe-9e950a1a941f|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_issues|193289659|77220340|aa644bba-5013-43bc-9fbe-9e950a1a941f|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "starved_thermal|156043000|106934000|97a13168-b411-4d16-9d7e-899c1a102f17|c1611781-f3ea-4e73-ac39-9c7e6d87f371|F.Cu",
-          "manually connected"
         ]
       ],
       "meta": {
@@ -105,7 +101,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "ignore",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",

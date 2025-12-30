@@ -1,0 +1,60 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+145.669,-79.328,-90.0,top,C1,,,C_Disc_D4.3mm_W1.9mm_P5.00mm,100nF,tht
+145.669,-90.678,-90.0,top,C2,,,C_Disc_D4.3mm_W1.9mm_P5.00mm,100nF,tht
+145.669,-102.108,-90.0,top,C3,,,C_Disc_D4.3mm_W1.9mm_P5.00mm,100nF,tht
+175.768,-94.178,90.0,top,C4,,,CP_Radial_D8.0mm_P3.50mm,150uF,tht
+137.287,-63.5,-90.0,top,D1,,,D_DO-35_SOD27_P7.62mm_Horizontal,1N4148,tht
+142.875,-63.5,-90.0,top,D2,,,D_DO-35_SOD27_P7.62mm_Horizontal,1N4148,tht
+154.051,-63.5,-90.0,top,D3,,,D_DO-35_SOD27_P7.62mm_Horizontal,1N4148,tht
+148.463,-63.5,-90.0,top,D4,,,D_DO-35_SOD27_P7.62mm_Horizontal,1N4148,tht
+165.227,-63.5,-90.0,top,D5,,,D_DO-35_SOD27_P7.62mm_Horizontal,1N4148,tht
+159.639,-63.5,-90.0,top,D6,,,D_DO-35_SOD27_P7.62mm_Horizontal,1N4148,tht
+181.864,-65.405,-90.0,top,D7,,,D_DO-35_SOD27_P7.62mm_Horizontal,1N4148,tht
+173.228,-81.788,180.0,top,D8,,,D_DO-35_SOD27_P7.62mm_Horizontal,1N4148,tht
+196.947,-52.187,180.0,top,J1,KMDGX-9S-BS-1,,KMDGX9SBS1,KMDGX-9S-BS-1,tht
+168.021,-111.252,0.0,top,J10,,,PinSocket_1x01_P2.54mm_Vertical,c-sync,tht
+153.162,-76.708,-90.0,top,J11,,,PinSocket_1x01_P2.54mm_Vertical,c-sync,tht
+193.04,-85.217,0.0,top,J12,,,PinSocket_1x01_P2.54mm_Vertical,Composite video,tht
+180.975,-60.96,0.0,top,J13,,,PinSocket_1x01_P2.54mm_Vertical,Composite video to scart,tht
+199.898,-78.613,90.0,top,J14,,,PinSocket_1x01_P2.54mm_Vertical,5v,tht
+199.771,-68.453,90.0,top,J15,,,PinSocket_1x01_P2.54mm_Vertical,12v,tht
+199.898,-73.533,90.0,top,J16,,,PinSocket_1x01_P2.54mm_Vertical,GND,tht
+138.48,-55.8,180.0,top,J17,,,scart F,SCART-F,tht
+198.247,-59.563,0.0,top,J18,,,PinSocket_1x01_P2.54mm_Vertical,Csync to din,tht
+193.04,-59.563,0.0,top,J19,,,PinSocket_1x01_P2.54mm_Vertical,Composite video to din,tht
+175.641,-111.252,0.0,top,J2,,,PinSocket_1x01_P2.54mm_Vertical,SND,tht
+139.446,-111.252,0.0,top,J3,,,PinSocket_1x01_P2.54mm_Vertical,C. BLK,tht
+150.876,-111.252,0.0,top,J4,,,PinSocket_1x01_P2.54mm_Vertical,"L (pin 10, 8245)",tht
+145.161,-111.252,0.0,top,J5,,,PinSocket_1x01_P2.54mm_Vertical,"P17 (pin 34, 8048)",tht
+162.306,-111.252,0.0,top,J6,,,PinSocket_1x01_P2.54mm_Vertical,"R (pin 18, 8245)",tht
+133.731,-111.252,0.0,top,J7,,,PinSocket_1x01_P2.54mm_Vertical,"G (pin 19, 8245)",tht
+156.591,-111.252,0.0,top,J8,,,PinSocket_1x01_P2.54mm_Vertical,"B (pin 20, 8245)",tht
+185.42,-111.252,0.0,top,J9,,,PinSocket_1x01_P2.54mm_Vertical,Composite,tht
+168.148,-77.978,0.0,top,LS1,,,PinSocket_2x01_P2.54mm_Vertical,Speaker,tht
+155.702,-93.218,180.0,top,Q1,,,TO-92_Wide,BC548,tht
+187.96,-97.917,180.0,top,Q2,,,TO-92_Wide,BC548,tht
+190.5,-90.297,180.0,top,Q3,,,TO-92_Wide,BC558,tht
+170.688,-98.298,180.0,top,Q4,,,TO-92_Wide,BC548,tht
+160.909,-95.758,90.0,top,R1,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,100,tht
+134.493,-71.12,90.0,top,R10,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1.5k,tht
+145.669,-71.12,90.0,top,R11,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1.5k,tht
+151.257,-71.12,90.0,top,R12,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,560,tht
+156.845,-71.12,90.0,top,R13,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1.5k,tht
+162.433,-71.12,90.0,top,R14,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,560,tht
+200.66,-102.497,180.0,top,R15,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,220,tht
+182.88,-92.837,90.0,top,R16,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,680,tht
+174.498,-105.918,90.0,top,R17,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,3.3K,tht
+178.308,-98.298,-90.0,top,R18,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,22,tht
+160.909,-98.298,-90.0,top,R2,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,470,tht
+170.815,-63.5,-90.0,top,R3,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,47,tht
+184.785,-57.785,-90.0,top,R4,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1k,tht
+153.162,-80.518,-90.0,top,R5,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,180,tht
+156.972,-80.518,-90.0,top,R6,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,680,tht
+153.162,-98.298,-90.0,top,R7,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,4.7k,tht
+156.972,-105.918,90.0,top,R8,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,4.7k,tht
+140.081,-71.12,90.0,top,R9,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,560,tht
+193.2,-97.877,0.0,top,RV1,,,Potentiometer_Piher_PT-10-V10_Vertical,1k,tht
+165.608,-89.408,90.0,top,RV2,,,Potentiometer_Runtron_RM-065_Vertical,220,tht
+127.635,-84.328,90.0,top,U1,,,DIP-14_W7.62mm_LongPads,7407,tht
+127.635,-95.758,90.0,top,U2,,,DIP-14_W7.62mm_LongPads,74LS08,tht
+127.635,-107.188,90.0,top,U3,,,DIP-14_W7.62mm_LongPads,74LS00,tht
